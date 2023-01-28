@@ -32,8 +32,49 @@ Download link : https://www.python.org/downloads/
 
 ## Usage
 
-(TO DO)
+(DRAFT)
 
+In a terminal :
+```
+python lets_crypt.py [OPTIONS] [TARGET]
+```
+OPTIONS :
+```
+   -d (or --decrypt)                  to decrypt the specified target. Be aware of using the same
+                                      algorithm you used for encryption.
+                                      
+   -a (or --algorithm) <algo_code>    to specify the wanted algorithm for encryption. See 'Algo Codes'
+                                      section below for possible algorithms.
+                                      
+   -? (TO DEFINE)                     needed informations to encrypt.
+   
+   -k (or --keep)                     keeps the original file intact and encrypts its content into a
+                                      copy.
+                                      
+   -v (or --version)                  display the current version of the program.
+   
+   -h (or --help)                     display the possible options.
+``` 
+TARGET :
+```
+   file_name                          the name of the file to encrypt (or decrypt).
+   | dir_name                         the name of the directory to encrypt (or decrypt).
+```
+Algo Codes :
+```
+There are two possible types of encryption algorithms:
+   
+   - Symmetric-key algorithm:
+       codes = {aes, twofish, idea}
+           aes -> (TO DEFINE)
+           twofish -> (TO DEFINE)
+           idea -> (TO DEFINE)
+           
+   - Asymmetric-key algorithm:
+       codes = {rsa, ecc}
+           rsa -> (TO DEFINE)
+           ecc -> (TO DEFINE)
+```
 #### Demonstration :
 
 (TO DO)
