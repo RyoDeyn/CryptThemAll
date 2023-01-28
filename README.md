@@ -43,13 +43,13 @@ OPTIONS :
    -d (or --decrypt)                  to decrypt the specified target. Be aware of using the same
                                       algorithm you used for encryption.
                                       
-   -a (or --algorithm) <algo_code>    to specify the wanted algorithm for encryption. See 'Algo Codes'
-                                      section below for possible algorithms.
+   -a (or --algorithm) <algo_code>    to specify the wanted algorithm for encryption. See
+                                      'Algo Codes' section below for possible algorithms.
                                       
    -? (TO DEFINE)                     needed informations to encrypt.
    
-   -k (or --keep)                     keeps the original file intact and encrypts its content into a
-                                      copy.
+   -k (or --keep)                     keeps the original file intact and encrypts its content into
+                                      a copy.
                                       
    -v (or --version)                  display the current version of the program.
    
